@@ -1,0 +1,23 @@
+{
+  "template": {
+    "files": [
+      {
+        "merger": "Travis",
+        "pattern": ".travis.yml"
+      },
+      {
+        "merger": "Readme",
+        "pattern": "README.md",
+        "options": {
+          "badges": [
+            {
+              "name": "Build Status",
+              "icon": "https://secure.travis-ci.org/{{github.user}}/{{github.repo}}.png",
+              "url": "http://travis-ci.org/{{github.user}}/{{github.repo}}"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
