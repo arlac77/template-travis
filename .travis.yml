@@ -1,3 +1,4 @@
+cache: --delete-- npm
 language: node_js
 branches:
   only:
