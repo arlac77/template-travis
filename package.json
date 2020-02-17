@@ -14,7 +14,7 @@
               "name": "Build Status",
               "icon": "https://secure.travis-ci.org/{{github.user}}/{{github.repo}}.png",
               "url": "http://travis-ci.org/{{github.user}}/{{github.repo}}",
-              "order" : 0.3
+              "order" : 0.2
             }
           ]
         }
