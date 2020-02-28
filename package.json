@@ -1,12 +1,12 @@
 {
   "template": {
-    "files": [
+    "mergers": [
       {
-        "merger": "Travis",
+        "type": "Travis",
         "pattern": ".travis.yml"
       },
       {
-        "merger": "Readme",
+        "type": "Readme",
         "pattern": "README.md",
         "options": {
           "badges": [
