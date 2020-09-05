@@ -2,7 +2,7 @@ language: node_js
 branches:
   only:
     - master
-    - /^greenkeeper/.*$/
+    - --delete-- /^greenkeeper/.*$/
     - /^mkpr/.*$/
     - /^npm-template-sync/.*$/
 jobs:
