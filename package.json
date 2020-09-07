@@ -14,11 +14,14 @@
               "name": "Build Status",
               "icon": "https://travis-ci.com/{{github.user}}/{{github.repo}}.svg?branch=master",
               "url": "https://travis-ci.com/{{github.user}}/{{github.repo}}",
-              "order" : 0.2
+              "order": 0.2
             }
           ]
         }
       }
+    ],
+    "usedBy": [
+      "arlac77/fetch-rate-limit-util"
     ]
   }
 }
